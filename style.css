@@ -1,0 +1,248 @@
+body {
+    margin: 0%;
+    font-family: "Roboto", sans-serif;
+  }
+  .header {
+    background-color: #1f6ac5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 70px 100px;
+  }
+  .logo {
+    width: 100pc=x;
+
+  }
+  .btn {
+    border-radius: 50px;
+    height: 52px;
+    border: none;
+    font-weight:600;
+    font-size: medium;
+    padding: 0 20px;
+    background-color: #EE626B;
+    color: #fff;
+    text-transform: uppercase;
+    transition: .3s;
+
+  }
+  .btn:hover {
+    background-color: #f2858c;
+  }
+
+  .header-links a {
+    color: white;
+    padding: 7px 15px;
+    text-decoration: none;
+    border-radius: 20px;
+  }
+  .header-links a:hover {
+    background-color: #2386fe;
+  }
+ 
+ 
+  .landing-page {
+    background-color: #0171f9;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 70px 200px;
+    align-items: center;
+    color: white;
+    border-radius: 0 0 80px 80px;
+    
+  }
+  .landing-page-left {
+    
+    width: 700px;
+  }
+  .landing-page-left h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+  }
+  .landing-page-left p {
+    color: black;
+    font-size: 20px;
+    padding: 0px 0px 20px;
+  }
+  .landing-page-search input {
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 300px;
+    padding: 0 10px;
+  }
+  .landing-page-search button {
+    position: absolute;
+    left: 340px;
+  }
+  .landing-page-container img {
+    border-radius: 20px;
+    width: 450px;
+  }
+  .trending-games {
+    padding: 100px 50px;
+  }
+  .trending-games-up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .trending-games-up h1 {
+    margin: 0%;
+  }
+  .trending-games span {
+    color: red;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  .trending-cards {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .card {
+    width: 300px;
+    background-color: #EEEEEE;
+    border-radius: 20px;
+  }
+  .card img {
+    border-radius: 20px 20px 0 0 ;
+  }
+  
+  .card-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 25px;
+  }
+  .shop-log img {
+    width: 50px;
+    height: 70px;
+  }
+  .top-games {
+    padding: 20px 80px 100px 80px ;
+    border-radius: 80px ;
+    background-color:#EEEEEE;
+    margin: 0%;
+  }
+  .top-games-up {
+    margin: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0px;
+
+  }
+  .most-played-cards {
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .most-card {
+    width: 200px;
+    background-color: #EEEEEE;
+    border-radius: 20px;  
+
+  }
+  .most-card img {
+    width: 200px;
+    border-radius: 20px 20px 20px 20px ;
+  }
+  .most-card-info {
+    
+    align-items: center;
+    justify-items:center;
+    padding: 5px 25px;
+  }
+  .top-categories {
+    padding: 100px 50px;
+  }
+  .top-categories-up{
+    padding: 20px 220px ;
+    justify-items: center;
+  }
+  .top-categories-cards {
+    padding: 50px ;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .top-card :hover{
+    size: 14px;
+  }
+  .top-card {
+    width: 250px;
+    background-color: #0171f9;
+    border-radius: 20px;
+
+  }
+  .top-card img {
+    width: 250px;
+    border-radius: 20px 20px 20px 20px ;
+  }
+  .top-card-info {
+    
+    align-items: center;
+    justify-items:center;
+    padding: 5px 25px;
+  }
+  .fin {
+    background-color: #0171f9;
+    padding: 40px;
+    border-radius: 50px 50px 0 0 ;
+    justify-items: center;
+  }
+  .contact-us-header {
+    background-color: #0171f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px 15px;
+  }
+  .form-container {
+    display: flex;
+    padding: 40px;
+    margin: auto;
+    justify-content: center;
+    max-width: 1300px;
+  }
+  .form-container form {
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 400px;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    height: 450px;
+  }
+  
+  .form-container form input , textarea {
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    font-size: large;
+  }
+  .form-container input {
+    height: 50px;
+    border-radius: 50px;
+  }
+
+  .form-container textarea {
+    border-radius: 20px;
+    padding-top: 10px;
+    resize: none;
+  }    
+
+  .footer {
+    background-color: #0171f9;
+    border-radius: 50px 50px 0 0;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 0;
+  }
