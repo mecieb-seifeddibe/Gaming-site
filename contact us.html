@@ -1,41 +1,57 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Contact Us</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | LUGX STORE</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-    rel="stylesheet"
-  />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!--header-->
-  <div class="contact-us-header">
-    <img class="logo" src="images/logo.png" />
-    <div class="header-links">
-      <a href="C:\Users\SM-ProTech\OneDrive\Bureau\HTML\TEST.html">Home</a>
-      <a href="#">Our Shop</a>
-      <a href="#">Product Details </a>
-      <a href="#">Contact Us</a>
-      <button class="btn">SING IN</button>
+  <!-- Header -->
+  <header class="header">
+    <div class="logo-container">
+      <a href="TEST.html">
+        <img class="logo" src="images/logo.png" alt="LUGX Store Logo" />
+      </a>
     </div>
-  </div>
-  <div class="form-container">
-    <form action="TEST.html">
-      <input type="text" placeholder="Name" />
-      <input type="email" placeholder="Email" />
-      <textarea
-        name="question"
-        cols="30"
-        rows="10"
-        placeholder="Any Question"
-      ></textarea>
-      <button class="btn">Send</button>
-    </form>
-  </div>
-  <!--footer-->
-  <div class="footer">
-     <h3>copyright © 2048 LUGX Gaming Company. All rights reserved. Design: TemplateMo</h3>
-  </div>
+    <nav class="header-links">
+      <a href="TEST.html">Home</a>
+      <a href="#">Our Shop</a>
+      <a href="#">Product Details</a>
+      <a href="contact us.html" class="active">Contact Us</a>
+      <button class="btn btn-primary">SIGN IN</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-section">
+      <div class="form-container">
+        <h2>Get In Touch</h2>
+        <form action="TEST.html" method="GET">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <textarea name="question" class="form-control" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>
+      Copyright © 2026 LUGX Gaming Company. All rights reserved.<br>
+      <span class="design-credit">Redesigned for Professionalism</span>
+    </p>
+  </footer>
 </body>
+</html>
